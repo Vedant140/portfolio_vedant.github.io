@@ -1,0 +1,85 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: calc(23%);
+    margin: 5px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    margin-top: 20px;
+  }
+  
+  .card-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 14px;
+    color: #777;
+  }
+.card:hover{
+  transform: scale(0.95);
+  background-color: #ddd;
+    color: black;
+}
+.card1{
+  width: calc(24%);
+    margin: 5px;
+    border-radius: 5px;
+}
+#imagecancer{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.card2{
+  width: calc(24%);
+    margin: 5px;
+    border-radius: 5px;
+}
+#stegainfo{
+  font-family: Perpetua;
+  text-align: right;
+
+}
+.cardin{
+  width: calc(31%);
+    margin: 5px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.cardin img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardin-text {
+  margin-top: 20px;
+}
+
+.cardin-text h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cardin-text p {
+  font-size: 14px;
+  color: #777;
+}
+.cardin:hover{
+transform: scale(0.95);
+background-color: #ddd;
+  color: black;
+}

@@ -1,0 +1,62 @@
+body {
+    background: rgb(229, 228, 233);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #contact label,
+  #contact input,
+  #contact textarea,
+  #contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #comments .comment {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  #comments .comment strong {
+    color: #333;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  img {
+    text-align: left;
+    height: 40px;
+    width: 40px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
